@@ -34,8 +34,7 @@ function GameAppleScene.create()
     appscene:cacheInt()
     appscene:createBackground()
     
---    cc.UserDefault:getInstance():setIntegerForKey("curLevel",4)
---    cc.UserDefault:getInstance():flush()
+
     
     return appscene
 end
@@ -229,11 +228,7 @@ function GameAppleScene:setAppleNum(num)
         appleFamerLayer:removeschedule()
         self:gameOver(true)
    end
---    if plantsHp<=0 then
---        cc.SimpleAudioEngine:getInstance():playEffect("lost.mp3")
---        gameUserDataLayer:setLifeLabel(0)
---        self:gameOver(false)
---    end
+
 end
 --游戏板子碰撞次数减少
 function GameAppleScene:setCollNum(num)
@@ -255,10 +250,9 @@ function GameAppleScene:setCollNum(num)
         end
     end
     gameUserDataLayer:setReboundLabel(colliNum)
-    --    if plantsHp<=0 then
-    --        cc.SimpleAudioEngine:getInstance():playEffect("lost.mp3")
-    --        gameUserDataLayer:setLifeLabel(0)
-    --        self:gameOver(false)
+    --    if plantsHp1123123hen
+    --        cc.SimpleAud12tInstance():213213231yer:setLifeLabel(0)
+    --        asdasdsa321322131232112
     --    end
 end
 
